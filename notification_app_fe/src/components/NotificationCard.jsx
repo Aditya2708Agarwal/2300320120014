@@ -7,14 +7,14 @@ import {
 
 const NotificationCard = ({ item }) => {
   return (
-    <Card sx={{ mb: 2 }}>
+    <Card sx={{ mb: 0 }}>
       <CardContent>
         <Chip
           label={item.Type}
-          sx={{ mb: 1 }}
+          sx={{ mb: 0.5 }}
         />
 
-        <Typography variant="h6">
+        <Typography variant="h4">
           {item.Message}
         </Typography>
 
